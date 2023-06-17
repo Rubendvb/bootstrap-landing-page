@@ -11,3 +11,12 @@
 .text__title__color {
   color: darkred;
 }
+
+.btn__color {
+  background-color: darkred;
+  color: white;
+}
+
+.card__border {
+  border-color: darkred;
+}
