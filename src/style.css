@@ -1,0 +1,28 @@
+.text__title {
+  font-family: "Pacifico", cursive;
+}
+
+.img-carrosel {
+  object-fit: cover;
+  object-position: 0 80%;
+  height: 400px;
+}
+
+.text__title__color {
+  color: darkred;
+}
+
+.btn__color {
+  background-color: darkred;
+  color: white;
+}
+
+.card__border {
+  max-width: 18rem;
+  border-color: darkred;
+}
+
+.card__img {
+  height: 200px;
+  object-fit: cover;
+}
