@@ -13,7 +13,12 @@
 }
 
 .btn__color {
-  background-color: darkred;
+  background-color: #8b0000;
+  color: white;
+}
+
+.btn__color:hover {
+  background-color: #8b0000cc;
   color: white;
 }
 
