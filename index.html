@@ -257,7 +257,9 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Entre em contato
+            </h1>
             <button
               type="button"
               class="btn-close"
@@ -266,11 +268,42 @@
             ></button>
           </div>
           <div class="modal-body">
-            <p>
-              contato:<a href="mailto:email@frutafruto.com.br"
-                >email@frutafruto.com.br</a
-              >
-            </p>
+            <form action="">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nome completo</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Insira seu nome"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Endereço de e-mail</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="nome@exemplo.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Deixe seu cometário</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  placeholder="Insira aqui seu cometário"
+                  rows="3"
+                ></textarea>
+              </div>
+            </form>
           </div>
           <div class="modal-footer">
             <button
@@ -278,13 +311,19 @@
               class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
-              Close
+              Fechar
             </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn__color">Enviar</button>
           </div>
         </div>
       </div>
     </div>
+
+    <p>
+      contato:<a href="mailto:email@frutafruto.com.br"
+        >email@frutafruto.com.br</a
+      >
+    </p>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
